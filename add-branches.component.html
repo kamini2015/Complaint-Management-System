@@ -1,0 +1,115 @@
+<div class="main-container">
+	<div class="cs-container">
+		<div class="cs-row">
+			<div class="right-data left-right-space">
+				<div class="contst">
+					<div class="cs-heading">
+						<h2 class="br-upcase-text">BASIC DETAIL</h2>
+						<p>Indicates required fields ( <span>*</span> ) </p>
+					</div>
+					
+					<div class="cs-divider pt16"><mat-divider class="mat-divider mat-divider-horizontal" role="separator" aria-orientation="horizontal"></mat-divider></div>
+					
+					<div class="form-field">
+						<div class="row">
+							<div class="control-field col-12">
+								<mat-form-field class="example-full-width cs-input">
+									<input matInput placeholder="BRANCH NAME * ">
+								</mat-form-field>
+							</div>
+							<div class="control-field col-4">
+								<mat-form-field class="example-full-width cs-input">
+									<input matInput placeholder="CONTACT PERSON">
+								</mat-form-field>
+							</div>
+							<div class="control-field col-4">
+								<mat-form-field class="example-full-width cs-input">
+									<input matInput placeholder="MOBILE NO">
+								</mat-form-field>
+							</div>
+							<div class="control-field col-4">
+								<mat-form-field class="example-full-width cs-input">
+									<input matInput placeholder="EMAIL">
+								</mat-form-field>
+							</div>
+						</div>
+					</div>
+					
+					<div class="cs-divider pt16 pb16 left-right-15"><mat-divider class="mat-divider mat-divider-horizontal" role="separator" aria-orientation="horizontal"></mat-divider></div>
+					
+					<div class="cs-heading">
+						<h2 class="br-upcase-text">ADDRESS INFO</h2>
+					</div>
+					
+					<div class="form-field">
+						<div class="row">
+								<div class="control-field col-4">
+										<mat-form-field class="example-full-width cs-input select-input">
+											<input matInput placeholder="COUNTRY" [matAutocomplete]="brand">
+											<mat-autocomplete #brand="matAutocomplete">
+												<mat-option>
+													<small>COUNTRY 1</small>
+												</mat-option>
+											</mat-autocomplete>
+										</mat-form-field>
+									</div>
+							<div class="control-field col-4">
+								<mat-form-field class="cs-multi-select">
+									<mat-select placeholder="STATE">
+										<mat-option>Haryana</mat-option>
+										<mat-option>Punjab</mat-option>
+									</mat-select>
+								</mat-form-field>
+							</div>
+							<div class="control-field col-4">
+								<mat-form-field class="cs-multi-select">
+									<mat-select placeholder="DISTRICT">
+										<mat-option>Faridabad</mat-option>
+										<mat-option>Karnal</mat-option>
+									</mat-select>
+								</mat-form-field>
+							</div>
+							<div class="control-field col-4">
+								<mat-form-field class="example-full-width cs-input">
+									<input matInput placeholder="CITY">
+								</mat-form-field>
+							</div>
+							<div class="control-field col-4">
+								<mat-form-field class="example-full-width cs-input">
+									<input matInput placeholder="PINCODE">
+								</mat-form-field>
+							</div>
+						</div>
+					</div>
+					<div class="cs-divider pt16 pb16 left-right-15"><mat-divider class="mat-divider mat-divider-horizontal" role="separator" aria-orientation="horizontal"></mat-divider></div>
+					
+					<div class="cs-heading">
+						<h2 class="br-upcase-text">USER NAME & PASSWORD</h2>
+					</div>
+					
+					<div class="form-field">
+						<div class="row">
+							<div class="control-field col-4">
+								<mat-form-field class="example-full-width cs-input">
+									<input matInput placeholder="USER NAME">
+								</mat-form-field>
+							</div>
+							<div class="control-field col-4">
+								<mat-form-field class="example-full-width cs-input">
+									<input matInput placeholder="PASSWORD">
+								</mat-form-field>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cs-btn fixedd mt32 text-right">
+					<div class="in-btn">
+						<button mat-raised-button color="warn">save</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="h100"></div>
