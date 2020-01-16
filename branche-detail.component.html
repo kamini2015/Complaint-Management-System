@@ -1,0 +1,240 @@
+<div class="main-container">
+	<div class="master-heading bcspace">
+		<div class="back-btn">
+			<a mat-button routerLink="/branche-list" routerLinkActive="active"><i class="material-icons">arrow_right_alt</i></a>
+		</div>
+		<div class="vl-info">
+			<ul>
+				<li><a mat-button class="link" style="margin-top: -10px; padding-left: 0px;">R D Electricals</a></li>
+				<li><p class="light">Open Complaints : <span class="red-clr">06</span></p></li>
+				<li><p class="light">Branch Name : <span class="black-clr">B2 Faridabad</span></p></li>
+			</ul>
+		</div>
+		<div class="m-right-data action-btns-right vl-info">
+			<ul>
+				<li class="delete"><button mat-button><i class="material-icons">delete_sweep</i> DELETE</button></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="cs-container">
+		<div class="cs-row cs-tabs-space">
+			<!-- TABS Component -->
+			<app-branches-tabs></app-branches-tabs>
+			<!-- TABS Component -->
+			
+			<div class="row">
+				<div class="col-8">
+					<div class="right-data">
+						<div class="contst">
+							<div class="side-by-side ml6 mr6" style="display: inherit;">
+								<div class="row">
+									<div class="figure grid-two">
+										<p>Branch Name</p>
+										<div class="cs-edit-input">
+											<mat-form-field class="example-full-width">
+												<input matInput type="text" readonly="" value="B1 Haryana Faridabad">
+											</mat-form-field>
+											<div class="edit-icon">
+												<button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+												<button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+											</div>
+										</div>
+									</div>
+									<div class="figure grid-two">
+										<p>Contact Person</p>
+										<div class="cs-edit-input">
+											<mat-form-field class="example-full-width">
+												<input matInput type="text" readonly="" value="Pawan Waliya">
+											</mat-form-field>
+											<div class="edit-icon">
+												<button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+												<button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="figure grid-three">
+										<p>Mobile No.</p>
+										<div class="cs-edit-input">
+											<mat-form-field class="example-full-width">
+												<input matInput type="text" readonly="" value="+91 6985745215">
+											</mat-form-field>
+											<div class="edit-icon">
+												<button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+												<button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+											</div>
+										</div>
+									</div>
+									<div class="figure grid-three">
+										<p>Email ID</p>
+										<div class="cs-edit-input">
+											<mat-form-field class="example-full-width">
+												<input matInput type="text" class="a" value="rdelectriacals05@gmail.com">
+											</mat-form-field>
+											<div class="edit-icon">
+												<button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+												<button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+											</div>
+										</div>
+									</div>
+									<div class="figure grid-three grey-bg">
+										<h2>142/<span class="red-clr">06</span></h2>
+									</div>
+									
+									<div class="figure">
+										<p>Address</p>
+										<div class="cs-edit-input">
+											<mat-form-field class="example-full-width">
+												<textarea matInput readonly="" value="5E/7 , B.P., Railway Road, Near Neelam Chowk, NIT Faridabad, Haryana 121001"></textarea>
+											</mat-form-field>
+											<div class="edit-icon">
+												<button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+												<button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cs-heading mt10">
+								<div class="trans-heading">
+									<h2>SERVICES ENGINNERS</h2>
+								</div>
+								<div class="df-action position-set">
+									<ul>
+										<li>
+											<a class="green-clr">
+												<i class="material-icons">edit</i>
+												Edit
+											</a>
+											
+										</li>
+										<li>
+											<a class="red-clr">
+												<i class="material-icons">delete_sweep</i>
+												Delete
+											</a>
+											
+										</li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="cs-table mt5 left-right-15">
+								<div class="header">
+									<table>
+										<tr>
+											<th class="w140">Name</th>
+											<th class="w130">Mobile No.</th>
+											<th>Email ID</th>
+											<th>Address</th>
+											<th class="w70">status</th>
+										</tr>
+									</table>
+								</div>
+								<div class="table-container info-table">
+									<div class="table-body">
+										<table>
+											<tr>
+												<td class="w140"><mat-checkbox class="input-check"></mat-checkbox>Rahul Verma</td>
+												<td class="w130">+91 9211465633</td>
+												<td><a class="a">rahulb101@gmail.com</a></td>
+												<td>Faridabad Haryana 121005</td>
+												<td class="text-center w70"><mat-slide-toggle></mat-slide-toggle></td>
+												</tr>
+												<tr>
+													<td><mat-checkbox class="input-check"></mat-checkbox>Rahul Verma</td>
+													<td>+91 9211465633</td>
+													<td><a class="a">rahulb101@gmail.com</a></td>
+													<td>Faridabad Haryana 121005</td>
+													<td class="text-center w70"><mat-slide-toggle></mat-slide-toggle></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-4">
+						<div class="right-data pl20">
+							<div class="contst left-calls-info">
+								<div class="cs-heading">
+									<h2>BRANCH LOGS</h2>
+								</div>
+								
+								<ul class="h470">
+									<li>
+										<div class="head">
+											<p class="name">Hmemant Rajput</p>
+											<p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+										</div>
+										<div class="description">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+										</div>
+									</li>
+									
+									<li>
+										<div class="head">
+											<p class="name">Hmemant Rajput</p>
+											<p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+										</div>
+										<div class="description">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+										</div>
+									</li>
+									
+									<li>
+										<div class="head">
+											<p class="name">Hmemant Rajput</p>
+											<p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+										</div>
+										<div class="description">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+										</div>
+									</li>
+									
+									<li>
+										<div class="head">
+											<p class="name">Hmemant Rajput</p>
+											<p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+										</div>
+										<div class="description">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+										</div>
+									</li>
+									
+									<li>
+										<div class="head">
+											<p class="name">Hmemant Rajput</p>
+											<p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+										</div>
+										<div class="description">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+										</div>
+									</li>
+									
+									<li>
+										<div class="head">
+											<p class="name">Hmemant Rajput</p>
+											<p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+										</div>
+										<div class="description">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="h100"></div>
+	
+	
