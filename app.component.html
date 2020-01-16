@@ -1,0 +1,6 @@
+
+<!-- <app-login></app-login> -->
+<app-header *ngIf="session.bch_user.bch_login == true"></app-header> 
+<!-- undefined == false, when user loggedin only then show header-->
+<app-footer></app-footer>
+<router-outlet></router-outlet>
