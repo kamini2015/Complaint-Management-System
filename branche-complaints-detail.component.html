@@ -1,0 +1,692 @@
+<div class="main-container">
+    <div class="master-heading bcspace">
+        <div class="back-btn">
+            <a mat-button routerLink="/lead-list" routerLinkActive="active"><i class="material-icons">arrow_right_alt</i></a>
+        </div>
+        <div class="vl-info">
+            <ul>
+                <li><a mat-button class="link" style="margin-top: -10px; padding: 0px">#123542</a></li>
+                <li><p class="light">Date : <span class="black-clr">12 April 2018</span></p></li>
+                <li><p class="light">Status : <span class="yellow-clr">RUNNING</span></p></li>
+                <li><p class="light">Complaint Type : <span class="black-clr">LOGISTIC</span></p></li>
+            </ul>
+        </div>
+        <div class="m-right-data action-btns-right vl-info">
+            <ul>
+                <li class="delete"><button mat-button><i class="material-icons">delete_sweep</i> DELETE</button></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- <div class="master-heading bcspace h75">
+        <div class="lead-step">
+            
+        </div>
+    </div> -->
+    
+    <div class="cs-container detail">
+        <div class="cs-row">
+            <!-- TABS Component -->
+            <app-branches-tabs></app-branches-tabs>
+            <!-- TABS Component -->
+            
+            <div class="right-data tabs-listing mt0">
+                
+                <div class="steps-heading cs-step">
+                    <ul>
+                        <li>
+                            <label class="active">
+                                <a></a>
+                                <p>STAGE 1</p>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="active">
+                                <a></a>
+                                <p>STAGE 2</p>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="process">
+                                <a></a>
+                                <p>STAGE 3</p>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <a></a>
+                                <p>STAGE 4</p>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="row">
+                    <div class="col-8">
+                        <div class="right-data pl16">
+                            <div class="contst">
+                                <div class="trans-heading mb10">
+                                    <h2>INVOICE INFORMATION</h2>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="side-by-side mt10" style="display: inherit;">
+                                            <div class="row left-right-0">
+                                                <div class="figure grid-two">
+                                                    <p>Invoice Number</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput type="text" readonly="" value="INV047152">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="figure grid-two">
+                                                    <p>Invoice Date</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput type="text" readonly="" value="12 Sep 2018">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>	
+                                                </div>
+                                            </div>
+                                            <div class="row left-right-0">
+                                                <div class="figure grid-three">
+                                                    <p>Batch Number</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput type="text" readonly="" value="47152862">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="figure grid-three">
+                                                    <p>Transporter Name</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput type="text" readonly="" value="Ram Singh">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="figure grid-three">
+                                                    <p>LR Number</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput type="text" readonly="" value="LR251236241236">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row left-right-0">
+                                                <div class="figure grid-two">
+                                                    <p>Total Item</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput type="text" readonly="" value="124">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="figure grid-two">
+                                                    <p>Invoice Value</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput type="text" readonly="" value="RS. 2,25,00.00/-">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>	
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="trans-heading mb10 mt10">
+                                    <h2>DEALER INFORMATION</h2>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="side-by-side" style="display: inherit;">
+                                            <div class="row left-right-0">
+                                                <div class="figure grid-two">
+                                                    <p>Company Name </p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput type="text" readonly="" value="XYZ PVT. LTD.">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="figure grid-two">
+                                                    <p>Contact Person</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput type="text" readonly="" value="Vijay Malya">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="side-by-side" style="display: inherit;">
+                                            <div class="row left-right-0">
+                                                <div class="figure">
+                                                    <p>Mobile Number</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput type="text" readonly="" value="+91 8860445784">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="figure mt16">
+                                                    <p>Email ID</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput class="link underline" type="text" readonly="" value="vijaymalya@gmail.com">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="side-by-side" style="display: inherit;">
+                                            <div class="row left-right-0 ml16">
+                                                <div class="figure cs-height">
+                                                    <p>Address</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <textarea matInput class="h95" readonly="">5E/7 , B.P., Railway Road, Near Neelam Chowk, NIT Faridabad, Haryana 121001</textarea>
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="trans-heading mb10 mt10">
+                                    <h2>CUSTOMER INFORMATION</h2>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="side-by-side" style="display: inherit;">
+                                            <div class="row left-right-0">
+                                                <div class="figure">
+                                                    <p>Name</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput type="text" readonly="" value="Hari Malhotra">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt16">
+                                    <div class="col-4">
+                                        <div class="side-by-side" style="display: inherit;">
+                                            <div class="row left-right-0">
+                                                <div class="figure">
+                                                    <p>Mobile Number</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput type="text" readonly="" value="+91 8860445784">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="figure mt16">
+                                                    <p>Email ID</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <input matInput class="link underline" type="text" readonly="" value="harimalhotra001@gmail.com ">
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="side-by-side" style="display: inherit;">
+                                            <div class="row left-right-0 ml16">
+                                                <div class="figure cs-height">
+                                                    <p>Installation Location</p>
+                                                    <div class="cs-edit-input">
+                                                        <mat-form-field class="example-full-width">
+                                                            <textarea matInput class="h95" readonly="">5E/7 , B.P., Railway Road, Near Neelam Chowk, NIT Faridabad, Haryana 121001</textarea>
+                                                        </mat-form-field>
+                                                        <div class="edit-icon">
+                                                            <button mat-button class="save"><i class="material-icons green-text" title="EDIT">save</i></button>
+                                                            <button mat-button class="edit"><i class="material-icons blue-text" title="EDIT">create</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-4"> 
+                        <div class="right-data pl15">
+                            <div class="contst left-calls-info">
+                                <div class="cs-heading">
+                                    <h2>COMPLAINT LOGS</h2>
+                                </div>
+                                
+                                <ul class="h790">
+                                    <li>
+                                        <div class="head">
+                                            <p class="name">Hmemant Rajput</p>
+                                            <p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+                                        </div>
+                                        <div class="description">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <div class="head">
+                                            <p class="name">Hmemant Rajput</p>
+                                            <p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+                                        </div>
+                                        <div class="description">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <div class="head">
+                                            <p class="name">Hmemant Rajput</p>
+                                            <p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+                                        </div>
+                                        <div class="description">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="head">
+                                            <p class="name">Hmemant Rajput</p>
+                                            <p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+                                        </div>
+                                        <div class="description">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <div class="head">
+                                            <p class="name">Hmemant Rajput</p>
+                                            <p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+                                        </div>
+                                        <div class="description">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <div class="head">
+                                            <p class="name">Hmemant Rajput</p>
+                                            <p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+                                        </div>
+                                        <div class="description">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="head">
+                                            <p class="name">Hmemant Rajput</p>
+                                            <p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+                                        </div>
+                                        <div class="description">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <div class="head">
+                                            <p class="name">Hmemant Rajput</p>
+                                            <p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+                                        </div>
+                                        <div class="description">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <div class="head">
+                                            <p class="name">Hmemant Rajput</p>
+                                            <p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+                                        </div>
+                                        <div class="description">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="head">
+                                            <p class="name">Hmemant Rajput</p>
+                                            <p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+                                        </div>
+                                        <div class="description">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <div class="head">
+                                            <p class="name">Hmemant Rajput</p>
+                                            <p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+                                        </div>
+                                        <div class="description">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <div class="head">
+                                            <p class="name">Hmemant Rajput</p>
+                                            <p class="date"><i class="material-icons ic-watch">watch_later</i>12 oct 2018 | 11:45am</p>
+                                        </div>
+                                        <div class="description">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="logs-input dflex">
+                                    <mat-form-field class="example-full-width">
+                                        <input matInput placeholder="Say something…">
+                                    </mat-form-field>
+                                    <i class="material-icons">arrow_right_alt</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="trans-heading ml0 mt10"> 
+                    <h2>ITEM INFORMATION</h2>
+                </div>
+                
+                <div class="cs-table mt5">
+                    <div class="header sticky">
+                        <table>
+                            <tr>
+                                <th class="w100 text-center">Cat Code</th>
+                                <th class="w300">Product</th>
+                                <th class="w100 text-center">Rate</th>
+                                <th class="w100 text-center">Lot Size</th>
+                                <th class="w100 text-center">Order QTY</th>
+                                <th class="w100 text-center">Fault QTY</th>
+                                <th>Remark</th>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="table-container">
+                        <div class="table-body">
+                            <table>
+                                <tr>
+                                    <td class="w100">
+                                        <a mat-button class="link" routerLink="/sale-order-detail" routerLinkActive="active">12536</a>
+                                    </td>
+                                    <td class="w300">Up legened plate for otpb otil & ipb</td>
+                                    <td class="w100 text-center">86</td>
+                                    <td class="w100 text-center">312</td>
+                                    <td class="w100 text-center">52</td>
+                                    <td class="w100 text-center input-center td-pass"><input type="text" value="05"></td>
+                                    <td class="td-pass"><input type="text" value="It is a long established fact that a reader will be distracted by the readable"></td>
+                                </tr>
+                                <tr>
+                                    <td class="w100">
+                                        <a mat-button class="link" routerLink="/sale-order-detail" routerLinkActive="active">12536</a>
+                                    </td>
+                                    <td class="w300">Up legened plate for otpb otil & ipb</td>
+                                    <td class="w100 text-center">22</td>
+                                    <td class="w100 text-center">442</td>
+                                    <td class="w100 text-center">25</td>
+                                    <td class="w100 text-center input-center td-pass"><input type="text" value="05"></td>
+                                    <td class="td-pass"><input type="text" value="There are many variations of passages of Lorem Ipsum available, but"></td>
+                                </tr>
+                                <tr>
+                                    <td class="w100">
+                                        <a mat-button class="link" routerLink="/sale-order-detail" routerLinkActive="active">12536</a>
+                                    </td>
+                                    <td class="w300">Up legened plate for otpb otil & ipb</td>
+                                    <td class="w100 text-center">86</td>
+                                    <td class="w100 text-center">312</td>
+                                    <td class="w100 text-center">52</td>
+                                    <td class="w100 text-center input-center td-pass"><input type="text" value="05"></td>
+                                    <td class="td-pass"><input type="text" value="It is a long established fact that a reader will be distracted by the readable"></td>
+                                </tr>
+                                <tr>
+                                    <td class="w100">
+                                        <a mat-button class="link" routerLink="/sale-order-detail" routerLinkActive="active">12536</a>
+                                    </td>
+                                    <td class="w300">Up legened plate for otpb otil & ipb</td>
+                                    <td class="w100 text-center">22</td>
+                                    <td class="w100 text-center">442</td>
+                                    <td class="w100 text-center">25</td>
+                                    <td class="w100 text-center input-center td-pass"><input type="text" value="05"></td>
+                                    <td class="td-pass"><input type="text" value="There are many variations of passages of Lorem Ipsum available, but"></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="w100">
+                                        <a mat-button class="link" routerLink="/sale-order-detail" routerLinkActive="active">12536</a>
+                                    </td>
+                                    <td class="w300">Up legened plate for otpb otil & ipb</td>
+                                    <td class="w100 text-center">86</td>
+                                    <td class="w100 text-center">312</td>
+                                    <td class="w100 text-center">52</td>
+                                    <td class="w100 text-center input-center td-pass"><input type="text" value="05"></td>
+                                    <td class="td-pass"><input type="text" value="It is a long established fact that a reader will be distracted by the readable"></td>
+                                </tr>
+                                <tr>
+                                    <td class="w100">
+                                        <a mat-button class="link" routerLink="/sale-order-detail" routerLinkActive="active">12536</a>
+                                    </td>
+                                    <td class="w300">Up legened plate for otpb otil & ipb</td>
+                                    <td class="w100 text-center">22</td>
+                                    <td class="w100 text-center">442</td>
+                                    <td class="w100 text-center">25</td>
+                                    <td class="w100 text-center input-center td-pass"><input type="text" value="05"></td>
+                                    <td class="td-pass"><input type="text" value="There are many variations of passages of Lorem Ipsum available, but"></td>
+                                </tr>		
+                            </table>
+                        </div>
+                    </div>
+                </div>   
+                
+                <div class="row">
+                    <div class="col-6">
+                        <div class="cs-heading">
+                            <div class="trans-heading ml0 mt10">
+                                <h2>INTERNAL TICKETS</h2>
+                            </div>
+                            <div class="grey-btn">
+                                <button mat-raised-button color="warn">Create Ticket</button>
+                            </div>
+                        </div>
+                        
+                        <div class="cs-table mt5">
+                            <div class="header sticky">
+                                <table>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Department</th>
+                                        <th class="w100">Task Type</th>
+                                        <th>Discription</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="table-container">
+                                <div class="table-body">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <a mat-button class="link" routerLink="/sale-order-detail" routerLinkActive="active">Rahul Dubey</a>
+                                            </td>
+                                            <td>Quality</td>
+                                            <td class="w100 link underline">Type 1</td>
+                                            <td class="text-dots">It is a long established fact to popular belief</td>
+                                            <td class="green-clr">COMPLETE</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a mat-button class="link" routerLink="/sale-order-detail" routerLinkActive="active">Meena Devi</a>
+                                            </td>
+                                            <td>Legal & Finance</td>
+                                            <td class="link underline">Type 2</td>
+                                            <td class="text-dots">There are many variations</td>
+                                            <td class="yellow-clr">RUNNING</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a mat-button class="link" routerLink="/sale-order-detail" routerLinkActive="active">Pankaj sharma</a>
+                                            </td>
+                                            <td>Logistic</td>
+                                            <td class="w100 link underline">Type 3</td>
+                                            <td class="text-dots">Contrary to popular belief to popular belief</td>
+                                            <td class="blue-clr">PENDING</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-6">
+                        <div class="cs-heading">
+                            <div class="trans-heading mt10 ml16">
+                                <h2>SPARE PARTS INFORMATION</h2>
+                            </div>
+                            <div class="grey-btn">
+                                <button mat-raised-button color="warn">Assign Parts</button>
+                            </div>
+                        </div>
+                        
+                        <div class="cs-table left-right-15 ml0 mt5">
+                            <div class="header sticky">
+                                <table>
+                                    <tr>
+                                        <th class="w10 border-right-none"></th>
+                                        <th>Date</th>
+                                        <th>Spare Part</th>
+                                        <th class="w50 text-center">QTY</th>
+                                        <th>Issue Form</th>
+                                        <th>Service Engineer</th>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="table-container">
+                                <div class="table-body">
+                                    <table>
+                                        <tr>
+                                            <td class="w10 border-right-none">1</td>
+                                            <td>12 Nov 2018</td>
+                                            <td>Quality</td>
+                                            <td class="w50 text-center a">2</td>
+                                            <td>Branch</td>
+                                            <td>Ram Kumar</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border-right-none">2</td>
+                                            <td> 17 Nov 2018</td>
+                                            <td>Legal & Finance</td>
+                                            <td class="text-center a">1</td>
+                                            <td>Open Market</td>
+                                            <td>Pawan chandila</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border-right-none">3</td>
+                                            <td>20 Nov 2018</td>
+                                            <td>Logistic</td>
+                                            <td class="text-center a">1</td>
+                                            <td>Dealer</td>
+                                            <td>Pankaj sharma</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                
+                <div class="Description ml16">
+                    <h2>Additional Information</h2>
+                    <p class="pt10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum</p>
+                    <ol>
+                        <li>It is a long established fact that a reader will be distracted by the readable content of</li>
+                        <li>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making</li>
+                        <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="h100"></div>
+    
